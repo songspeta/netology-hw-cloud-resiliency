@@ -45,6 +45,7 @@ terraform/
 ├── variables.tf          # Переменные
 ├── network.tf            # Сеть, подсеть, security group
 ├── instances.tf          # 2 ВМ с Nginx через count
+├── cloud-init.yml.tftpl  # Шаблон cloud-init
 ├── lb.tf                 # Балансировщик + таргет-группа
 └── output.tf             # Вывод IP балансировщика
 ```
